@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-        <link rel="stylesheet" href="/app/static/css/app.css">
+        <link rel="stylesheet" href="../app/static/css/app.css">
     </head>
   <body  class="jumbotron" id="jumbotron-body">
     <div class= "employeecard">
@@ -35,37 +35,45 @@
             <h3>Date</h3>
         </div>
         <div>
-            <table>
-                <tr>
-                    <th>Product Type</th>
-                    <th>Product Identification Number</th>
-                    <th>Product Decription</th>
-                    <th>Quantity Sold</th>
-                    <th>Unit Sale Price</th>
-                    <th> Total Cost</th>
-                    <th>Product Profit</th>
-                </tr>
-                <tr></tr>
-                <tr>Overall Total Daily Sales</tr>
-                <tr>Overall Total Daily Profit</tr>
+            <table class="table table-light table-bordered table-hover table-responsive-xl">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Product Type</th>
+                        <th scope="col">Product Identification Number</th>
+                        <th scope="col">Product Decription</th>
+                        <th scope="col">Quantity Sold</th>
+                        <th scope="col">Unit Sale Price</th>
+                        <th scope="col"> Total Cost</th>
+                        <th scope="col">Product Profit</th>
+                    </tr>    
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="table-secondary" scope="row">Overall Total Daily Sales</th>
+                    </tr>
+                    <tr>
+                        <th class="table-secondary" scope="row">Overall Total Daily Profit</th>
+                    </tr>
+                    <tr>
+                        <th class="table-secondary" scope="row">Most Popular Type</th>
+                    </tr>
+                    <tr>
+                        <th class="table-secondary" scope="row">Most Popular Item</th>
+                    </tr>
+                    <tr>
+                        <th class="table-secondary" scope="row">Least Popular Type</th>
+                    </tr>
+                    <tr>
+                        <th class="table-secondary" scope="row">Least Popular Item</th>
+                    </tr>
+                   
+                </tfoot>
+                
             </table>
         </div>
-        <div>
-            <h3>Most Popular Type</h3>
-            <div></div>
-        </div>
-        <div>
-            <h3>Most Popular Item</h3>
-            <div></div>
-        </div>
-        <div>
-            <h3>Least Popular Type</h3>
-            <div></div>
-        </div>
-        <div>
-            <h3>Least Popular Item</h3>
-            <div></div>
-        </div>
+        
     </div>
 
 
@@ -74,7 +82,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="/app/static/js/app.js"></script>
+    <script src="../app/static/js/app.js"></script>
   </body>
 </html>
 

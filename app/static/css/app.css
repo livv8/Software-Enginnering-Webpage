@@ -1,5 +1,5 @@
 #jumbotron-body {
-    background-color: #F2C409
+    background-color: #F2C409;
 }
 
 .employeewelcome {
@@ -18,5 +18,9 @@
 .atag {
     padding: 0px;
     white-space: pre-wrap;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: calc(100% + 1vw + 1vh);
 }
 
