@@ -7,7 +7,9 @@
     color: #fff;
 }
 
-.employeecard {
+.employeecard,
+.itemscard,
+.adjustpricecard {
     margin-bottom: 50px;
 }
 
