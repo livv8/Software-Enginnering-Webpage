@@ -24,3 +24,72 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: calc(100% + 1vw + 1vh);
 }
 
+
+
+.card {
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  /*background-image: url("../images/latched.jpeg");*/
+  background-repeat: repeat-x;
+}
+
+
+.card1, .card3 {
+    background-color: gold;
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+
+.card2, .card4 {
+    background-color: gold;
+    margin: 20px;
+    height: auto;
+    width: auto;
+    
+}
+
+img {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+ }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    max-width: fit-content;
+   
+}
+
+h1{
+    color: white;
+    font-size: 84px;
+    font-style: italic;
+    background-color: black;
+    text-shadow: 3px 3px 5px yellow;
+    
+}
+
+.card-body > h2{
+    text-emphasis-style:initial ;
+    text-align: center;
+    text-transform: inherit;
+    text-decoration: underline;
+    color: black;
+    }
+
+p {
+    color: black;
+}
+
+.card-text2 {
+    color: black;
+}
+
+
+
+

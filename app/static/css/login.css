@@ -1,0 +1,54 @@
+h1{
+    color: white;
+    font-size: 84px;
+    font-style: italic;
+    background-color: black;
+    text-shadow: 3px 3px 5px green;
+}
+
+
+.form{
+    background-color: yellow;
+}
+
+.split{
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    padding-top: 20px;
+
+}
+
+h2{
+    color: white;
+}
+
+.left{
+    left: 0;
+    background-color: black;
+}
+
+.right{
+    right: 0;
+    background-color: gold;
+}
+
+.theleft{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.theright{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    justify-content: right;
+}
+
