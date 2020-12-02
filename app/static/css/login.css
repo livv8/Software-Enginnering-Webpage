@@ -1,23 +1,25 @@
 h1{
-    color: white;
+    color: black;
     font-size: 84px;
     font-style: italic;
-    background-color: black;
-    text-shadow: 3px 3px 5px green;
+    background-color: white;
+    text-shadow: 3px 3px 10px green;
+    text-align: center;
 }
 
 
 .form{
-    background-color: yellow;
+    background-color: white;
 }
 
 .split{
-    height: 50%;
+    height: 100%;
     width: 50%;
     position: fixed;
     z-index: 1;
     overflow: hidden;
     padding-top: 20px;
+    scroll-padding: 20px;
 
 }
 
@@ -25,22 +27,45 @@ h2{
     color: white;
 }
 
+/*.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    max-width: fit-content;
+}
+*/
+
+label{
+    color: white;
+    text-align: left;
+}
+
 .left{
     left: 0;
     background-color: black;
+    justify-content: space-between;
+    bottom: auto;
+    
 }
 
 .right{
     right: 0;
-    background-color: gold;
+    background-color: goldenrod;
+    justify-content: space-between;
+    bottom: auto;
+    padding-left: 10px;
+    
 }
 
 .theleft{
     position: absolute;
     top: 50%;
     left: 50%;
+    bottom: 5%;
     transform: translate(-50%, -50%);
     text-align: left;
+   
 }
 
 .theright{
@@ -50,5 +75,7 @@ h2{
     transform: translate(-50%, -50%);
     text-align: left;
     justify-content: right;
+    bottom: -10%;
+    
 }
 
