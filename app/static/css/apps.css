@@ -9,7 +9,9 @@
 
 .employeecard,
 .itemscard,
-.adjustpricecard {
+.adjustpricecard,
+.restockorsoldcard,
+.searchinventorycard {
     margin-bottom: 50px;
 }
 
