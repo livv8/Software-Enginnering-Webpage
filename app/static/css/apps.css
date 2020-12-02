@@ -7,7 +7,9 @@
     color: #fff;
 }
 
-.employeecard {
+.employeecard,
+.itemscard,
+.adjustpricecard {
     margin-bottom: 50px;
 }
 
@@ -34,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-.card1, .card3 {
+.card1, .card3, .card5 {
     background-color: gold;
     margin: 20px;
     height: auto;
@@ -65,13 +67,12 @@ img {
    
 }
 
-h1{
-    color: white;
+.card > h1{
+    color: black;
     font-size: 84px;
     font-style: italic;
-    background-color: black;
-    text-shadow: 3px 3px 5px yellow;
-    
+    background-color: white;
+    text-shadow: 3px 3px 10px  green;
 }
 
 .card-body > h2{
@@ -91,5 +92,11 @@ p {
 }
 
 
-
+.employee >h1{
+    color: black;
+    font-size: 84px;
+    font-style: italic;
+    background-color: white;
+    text-shadow: 3px 3px 10px  gold;
+}
 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Latched Jamaica Inventory Management System</title>
+    <script src="http://localhost:8098"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="../app/static/css/apps.css">
+  </head>
+  <body  class="jumbotron" id="jumbotron-body">
+    <div class= "employeecard" id="hello">
+      <nav class="nav navbar nav-justified navbar-dark bg-dark">
+        <a class="nav-link badge badge-dark" href="employee.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link badge badge-dark" href="salesreport.html">Generate Sales Report</a>
+        <a class="nav-item nav-link badge badge-dark" href="orders.html">Orders</a>
+        <a class="nav-item nav-link badge badge-dark" href="inventory.html">Inventory</a>
+        <a class="nav-item nav-link badge badge-dark" href="suppliers.html">Suppliers</a>
+      </nav>
+    </div>
+
+    <div id="neworders">
+      <div>
+        <h6>Order ID</h6>
+        <h6>Date</h6>
+        <h6>Order placed by: Employee</h6>
+      </div>
+      <form class="" id="placeorderform">
+        <div class="placeorderformfieldset" id="placeorderformfieldset">
+          <fieldset id="accordion" class="card itemscard">
+            <div class ="card-header">
+              <legend type="button">Item <span class="label-nbr">1</span></legend>
+            </div>
+            <div class="card-body itemscardbody">
+              <div class="form-group">
+                <label for="">Item Type</label>
+                <input type="" class="form-control" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="">Item Colour</label>
+                <input type="" class="form-control" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="">Item Details</label>
+                <input type="" class="form-control" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="">Item Quantity</label>
+                <input type="" class="form-control" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="">Current Available Quantity</label>
+                <input type="" class="form-control" id="" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="">Item Total</label>
+                <input type="" class="form-control" id="" placeholder="">
+              </div>
+              <div>
+                <p>Order Total</p>
+              </div>
+            </div>
+            
+          </fieldset>
+          
+        </div>
+      </form>
+        <button type="submit" class="btn btn-primary" id="additemsorderfieldset">Add another item to order</button>
+        <button type="submit" class="btn btn-primary">Submit Order</button>
+      
+    </div>
+
+    <div id="orderslist">
+      
+      <div>
+        <button type="submit" class="btn btn-primary" id="addneworders">Add New Order</button>
+      </div>
+      <table class="table table-light table-bordered table-hover table-responsive-xl">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Order ID</th>
+            <th scope="col">Order Placed by</th>
+            <th scope="col">Item Type</th>
+            <th scope="col">Item Colour Sold</th>
+            <th scope="col">Item Details</th>
+            <th scope="col">Item Quantity</th>
+            <th scope="col">Item Unit Price</th>
+            <th scope="col">Order Total</th>
+          </tr>    
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+        </tfoot>
+                
+      </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../app/static/js/app.js"></script>
+  </body>
+</html>
